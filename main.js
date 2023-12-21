@@ -1,4 +1,5 @@
-import "./sass/main.scss";
+// import "./sass/main.scss";
+"use strict";
 
 const firstName = document.querySelector("[data-firstName]");
 const lastName = document.querySelector("[data-lastName]");
