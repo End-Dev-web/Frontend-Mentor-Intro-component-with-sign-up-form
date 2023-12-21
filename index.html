@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Intro component with sign up form challenge" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <!-- Font Awseome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- CSS Style File -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="wrapper base-flex">
+          <div class="form-details">
+            <h2 class="heading-2 clr-accent-white padding-block-end-4">
+              Learn to code by watching others
+            </h2>
+            <p class="clr-accent-white padding-block-end-7">
+              See how experienced developers solve problems in real-time.
+              Watching scripted tutorials is great, but understanding how
+              developers think is invaluable.
+            </p>
+          </div>
+          <div class="content">
+            <h3
+              class="heading-3 bg-accent-blue clr-neutral-grayish-blue padding-4 margin-block-end-6 radius-small box-shadow"
+              style="padding-inline: 5rem">
+              <span class="clr-accent-white">Try it free 7 days</span>
+              then $20/mo. thereafter
+            </h3>
+            <form
+              action="\"
+              class="bg-accent-white padding-6 radius-small box-shadow"
+              data-form>
+              <div class="form-field">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  data-firstName
+                  autocomplete="off"
+                  aria-label="First Name Cannot be empty" />
+                <i class="fa-solid fa-circle-exclamation" fail-icon></i>
+                <small></small>
+              </div>
+              <div class="form-field">
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  data-lastName
+                  autocomplete="off"
+                  aria-label="Last Name Cannot be empty" />
+                <i class="fa-solid fa-circle-exclamation" fail-icon></i>
+                <small></small>
+              </div>
+              <div class="form-field">
+                <input
+                  type="text"
+                  placeholder="Email Address"
+                  data-email
+                  autocomplete="off"
+                  aria-label="Email Address Cannot be empty" />
+                <i class="fa-solid fa-circle-exclamation" fail-icon></i>
+                <small></small>
+              </div>
+              <div class="form-field">
+                <input
+                  type="password"
+                  placeholder="Password"
+                  data-password
+                  autocomplete="off"
+                  aria-label="Password Cannot be empty" />
+                <i class="fa-solid fa-circle-exclamation" fail-icon></i>
+                <small></small>
+              </div>
+              <div class="form-field">
+                <input
+                  class="bg-primary-green clr-accent-white box-shadow-btn"
+                  type="submit"
+                  value="Claim your free trial" />
+              </div>
+              <p
+                class="clr-neutral-grayish-blue padding-inline-5 padding-block-end-4">
+                By clicking the button, you are agreeing to our
+                <a href="#" class="clr-primary-red">Terms and Services</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
